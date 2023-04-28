@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: white;
+  line-height: 1;
+  letter-spacing: 0.211em;
+  font-size: 54px;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #646262;
+  outline: none;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+header {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transition: 0.3s linear;
+}
+
+.video1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(25%);
+}
