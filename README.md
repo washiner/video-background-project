@@ -8,7 +8,6 @@
 
 
 <p align="center"> Para visualizar o projeto no seu navegador:
-
   <a href="[https://pizzaria-washiner.netlify.app/](https://background-video-project.netlify.app/)"> Click Aqui <a/>
 </p>
 
